@@ -12,17 +12,17 @@ const App = () => {
 
   const navigate = useNavigate()
 
-  useEffect(()=>{
-    onAuthStateChanged(auth , async(user)=>{
-      if(user){
-        console.log('Logged in');
-        navigate('/')
-      }else{
-        console.log('Logged Out');
-        navigate('/login')
-      }
-    })
-  },[])
+  // useEffect(()=>{
+  //   onAuthStateChanged(auth , async(user)=>{
+  //     if(user){
+  //       console.log('Logged in');
+  //       navigate('/')
+  //     }else{
+  //       console.log('Logged Out');
+  //       navigate('/login')
+  //     }
+  //   })
+  // },[])
   return (
 
     <div>

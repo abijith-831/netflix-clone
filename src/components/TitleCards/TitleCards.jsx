@@ -6,7 +6,6 @@ import {Link } from 'react-router-dom'
 
 
 const TitleCards = ({title , category}) => {
-
   const cardsRef = useRef()
   const [apiData , setApiData] = useState([])
 
